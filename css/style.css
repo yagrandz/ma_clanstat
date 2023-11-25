@@ -44,3 +44,44 @@ div#clanstat_chest_bar {position: relative;background: none;}
 .chest-bg-6 {background-color: #6ad09c;}
 .chest-bg-7 {background-color: #4fc05d;}
 .chest-bg-8 {background-color: #2b930f;}
+
+table .ma-card {
+	width: 24px;
+	margin: 1px;
+}
+
+.card-summons-count span {
+	text-align: right;
+	position: absolute;
+	left: 6px;
+	top: 20px;
+	font-size: 10px;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+}
+
+.card-summons-count {
+	position: relative;
+}
+
+.ma-deck {
+	width: max-content;
+	margin: 0 auto;
+}
+
+.ma-battle-summory .ma-icon {
+	width: 24px;
+}
+
+table.dataTable>tbody>tr.child ul.dtr-details {
+	display: block;
+}
+
+.ma-battle-summory {
+	width: 100%;
+}
+
+.text-end .ma-deck {
+	margin-right: 0;
+	margin-left: auto;
+}
