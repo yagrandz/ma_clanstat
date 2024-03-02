@@ -10,6 +10,7 @@ class ClanStat {
 	
 	onDataLoad(){
 		this.createTable();
+		this.setValues();
 	}	
 	
 	createTable(){
@@ -17,12 +18,16 @@ class ClanStat {
 			responsive: true,
 			data: table_data,
 			columns: table_header,
-			order: [[ table_header.length-1, "desc" ]],
+			order: table_order,
 			pageLength: 50,
 			dom:'ft',
 		} );
 	}
 	
+	setValues(){
+		clan_values.forEach(v => $('.value_clan_'+v.name).html(v.value));
+	}
+
 	createCharts(){
 		this.createChart('clan_members_power_chart', chart_data.power);
 		this.createChart('clan_members_rating_chart', chart_data.rating);
