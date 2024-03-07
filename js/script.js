@@ -29,8 +29,8 @@ class ClanStat {
 	}
 
 	createCharts(){
-		this.createChart('clan_members_power_chart', chart_data.power);
-		this.createChart('clan_members_rating_chart', chart_data.rating);
+		//this.createChart('clan_members_power_chart', chart_data.power);
+		//this.createChart('clan_members_rating_chart', chart_data.rating);
 	}
 	
 	onChatInitBtnClick(e){
