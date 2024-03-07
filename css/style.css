@@ -85,3 +85,23 @@ table.dataTable>tbody>tr.child ul.dtr-details {
 	margin-right: 0;
 	margin-left: auto;
 }
+
+.ma-clan-icon {
+    position: relative;
+    min-width: 50px;
+    min-height: 50px;
+    width: auto;
+    display: inline-block;
+}
+
+.ma-clan-icon img {
+    position: absolute;
+    width: 100%;
+}
+
+img.ma-clan-icon-icon {
+    z-index: 1;
+    width: 60%;
+    top: 30%;
+    left: 20%;
+}
